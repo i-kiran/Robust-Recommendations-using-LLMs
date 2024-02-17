@@ -8,7 +8,7 @@ import pickle
 def generate_responses(prompts):
     # Initialize a list to store the responses
     responses = []
-    openai.api_key = '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'
+    openai.api_key = 'Your Key'
     # Iterate over the prompts
     for prompt in prompts:
         # Generate a response to the prompt
